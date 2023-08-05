@@ -7,7 +7,7 @@ import com.example.demo.service.to.VehiculoTO;
 
 public interface IVehiculoService {
 
-public void guardarVehiculo(Vehiculo vehiculo);
+
 	
 	public Vehiculo consultarPorPlaca(String placa);
 	

@@ -32,11 +32,6 @@ public class VehiculoControllerRestful {
 	private IVehiculoService iVehiculoService;
 	
 	
-	@PostMapping
-	public void guardar(@RequestBody Vehiculo vehiculo) { 
-		
-		this.iVehiculoService.guardarVehiculo(vehiculo);;
-	}
 
 	@GetMapping(path = "/{placa}")
 	@ResponseStatus(HttpStatus.OK)

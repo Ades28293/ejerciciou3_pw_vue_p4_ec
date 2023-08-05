@@ -18,11 +18,7 @@ public class VehiculoRepositoryImpl implements IVehiculoRepository{
 	@PersistenceContext
 	private EntityManager entityManager;
 
-	@Override
-	public void insertarVehiculo(Vehiculo vehiculo) {
-		// TODO Auto-generated method stub
-		this.entityManager.persist(vehiculo);
-	}
+	
 
 	@Override
 	public Vehiculo buscarPorPlaca(String placa) {

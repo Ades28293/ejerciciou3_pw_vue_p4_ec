@@ -16,11 +16,7 @@ public class VehiculoServiceImpl implements IVehiculoService{
 	@Autowired
 	private IVehiculoRepository iVehiculoRepository;
 
-	@Override
-	public void guardarVehiculo(Vehiculo vehiculo) {
-		// TODO Auto-generated method stub
-		 this.iVehiculoRepository.insertarVehiculo(vehiculo);
-	}
+
 
 	@Override
 	public Vehiculo consultarPorPlaca(String placa) {
